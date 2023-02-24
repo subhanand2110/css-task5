@@ -1,0 +1,140 @@
+* {
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.header {
+    background-color: black;
+    width:100%;
+    display:flex;
+    height:40px;
+}
+.left-nav{
+    width:65%; 
+    color:white;
+    display:flex;
+    padding: 3px 5px 5px 0;
+   
+}
+.right-nav{
+    /* float:right; */
+    color:rgb(240, 236, 236);
+    width:35%;
+    display:flex;
+    padding-top:15px;   
+}
+ /* body {
+    text-align: center;  /* balu 
+}  */
+.body1 {
+    width: 100%;
+    height:250px;
+    background-color: #06d6a0;
+    padding-top: 30px;
+    
+    
+}
+.image {
+  border-radius:80%;
+  background-color: rgb(23, 23, 48);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text {
+    color:white;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.line{
+    display:flex;
+    position:relative;
+    left:590px;
+    color:white;     
+}
+hr {
+    width:5%; 
+    background-color: white; 
+    height:3px; 
+    border-width: 0;
+
+} 
+.star {
+color:white; 
+position:relative;
+bottom:7px;
+padding:0 15px 0 15px;
+
+}
+.para {
+    font-size: 20px; 
+    padding-top:15px;
+    position:relative;
+    right:260px; 
+
+}
+.text2{
+    color:black;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.line2 {
+    display:flex;
+    position:relative;
+    left:590px;
+    color:black; 
+}
+.body3{
+    /* border:1px solid blueviolet; */
+    height:280px;
+    margin-right:347px;
+    margin-left: 360px;
+}
+.one {
+    border:1px solid rgb(238, 99, 99);
+    border-radius: 4px;
+    background-color: rgb(238, 99, 99);
+    width:180px;
+    height:120px;
+}
+.row {
+    display:flex;
+}
+.outer {
+    padding-right:50px;
+}
+.outer2 {
+    padding: 20px 50px 0 0;  
+}
+ .footer {
+    width:100%;
+    background-color: #06d6a0;
+    color:white;
+    height:150px; 
+}
+.row1{
+    
+    display:flex;
+    margin-bottom: 5px;
+    margin:0 200px 0 180px;
+}
+    
+.footmargin {
+    margin:0 200px 0 180px;
+} 
+.button{
+    margin-top: 5px;
+    border:2px solid white;
+    width:150px;
+    border-radius:2px;
+    color:white;
+    display:flex;
+    text-align: center;
+    position:relative;
+    left:600px;
+} 
+.download {
+    padding:2px 3px 2px 3px;
+}
